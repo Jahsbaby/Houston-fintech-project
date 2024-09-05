@@ -1,0 +1,486 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: Helvetica,arial,sans-serif;
+    box-sizing: border-box;
+  }
+  .first {
+    position: sticky;
+    top: 0rem;
+    left: 6.25rem;
+    height: 5rem;
+    border: 0.125rem solid whitesmoke;
+    z-index: 2;
+    background-color: black;
+  }
+  .logo {
+    position: absolute;
+    left: 6.25rem;
+    top: 1.3rem;
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    overflow: hidden;
+    background-color: black;
+  }
+  ul li {
+    margin-right: 0.625rem;
+  }
+  li {
+    float: right;
+    right: 10rem;
+    color: white;
+    padding-right: 1.25rem;
+  }
+    li a {
+    text-decoration:none;
+    color: white;
+    display:none;
+  }
+   a :hover {
+   color: lightblue;
+    background-color: blue;
+  }
+  .part1 {
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+}
+.img {
+  color: rgba(0, 0, 0, 0.6);
+}
+.img2 {
+  position: absolute;
+  padding-left: 3rem;
+}
+.text {
+  position: absolute;
+  left: 8rem;
+  display: block;
+  top: 2.5rem;
+}
+.text h1 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: whitesmoke;
+}
+.text h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 80rem;
+  color: whitesmoke;
+}
+.text a {
+  text-decoration: none;
+  width: 8rem;
+  margin-right: 0;
+  padding: 1.25rem 2rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.text a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 3rem;
+}
+.houston-2 {
+  position: absolute;
+  border-bottom: 0.0625rem solid black;
+  text-align: left;
+  left: 6.5rem;
+}
+.houston-3 {
+  position: absolute;
+  top: 4rem;
+  color: #575757;
+  text-align: left;
+  left: 0.2rem;
+}
+.houston-4 {
+  position: absolute;
+  left: 60.5rem;
+  top: 4rem;
+}
+.houston-4 a {
+  text-decoration: none;
+  width: 12rem;
+  margin-right: 0;
+  padding: 1.2rem 2.8rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.houston-4 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-5 {
+  position: absolute;
+  line-height: 1.7;
+  left: 2rem;
+}
+.houston-6 {
+  position: relative;
+  height: 100vh;
+  background-color: #F6F6F6;
+  width: 100%;
+  color: #575757;
+  top: 5rem;
+}
+.houston-7 {
+  position: absolute;
+  left: 6rem;
+  top: 3.5rem;
+}
+.houston-8 {
+  position: absolute;
+  left: 50rem;
+  top: 6rem;
+}
+.houston-8 h1 {
+  font-size: 3rem;
+  color: #000;
+}
+.houston-9 {
+  position: absolute;
+  left: 50.1rem;
+  font-size: 1.5rem;
+  top: 11rem;
+}
+.houston-10 {
+  position: absolute;
+  left: 51.5rem;
+  font-size: 1.5rem;
+  top: 18rem;
+  line-height: 1.7;
+}
+.houston-10 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 12rem;
+  margin-right: 0;
+  padding: 1.2rem 2.8rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.houston-10 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-11 {
+  position: relative;
+  height: 120vh;
+  width: 100%;
+  color: #575757;
+  top: 12rem;
+}
+.houston-12 {
+  position: absolute;
+  left: 6rem;
+  top: 3.5rem;
+}
+.houston-13 {
+  position: absolute;
+  left: 50rem;
+  top: 6rem;
+}
+.houston-13 h1 {
+  font-size: 3rem;
+  color: #000;
+}
+.houston-14 {
+  position: absolute;
+  left: 51.5rem;
+  font-size: 1.5rem;
+  top: 13rem;
+}
+.houston-14 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 12rem;
+  margin-right: 0;
+  padding: 1.2rem 2.8rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.houston-14 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-15 {
+  position: relative;
+  height: 105vh;
+  background-color: #F6F6F6;
+  width: 100%;
+  color: #575757;
+  top: 5rem;
+}
+.houston-16 {
+  position: absolute;
+  left: 6rem;
+  top: 3.5rem;
+}
+.houston-17 {
+  position: absolute;
+  left: 50rem;
+  top: 6rem;
+}
+.houston-17 h1 {
+  font-size: 3rem;
+  color: #000;
+}
+.houston-18 {
+  position: absolute;
+  left: 51.5rem;
+  font-size: 1.5rem;
+  top: 18rem;
+  line-height: 1.7;
+}
+.houston-18 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 12rem;
+  margin-right: 0;
+  padding: 1.2rem 2.8rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.houston-18 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-19 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: #575757;
+  top: 15rem;
+}
+.houston-20 {
+  position: absolute;
+  left: 6rem;
+  top: 3.5rem;
+}
+.houston-21 {
+  position: absolute;
+  left: 50rem;
+  top: 6rem;
+}
+.houston-21 h1 {
+  font-size: 3rem;
+  color: #000;
+}
+.houston-22 {
+  position: absolute;
+  left: 51.5rem;
+  font-size: 1.5rem;
+  top: 13rem;
+}
+.houston-22 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 12rem;
+  margin-right: 0;
+  padding: 1.2rem 2.8rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.houston-22 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-25 {
+  position: relative;
+  height: 110vh;
+  background-color: #F6F6F6;
+  width: 100%;
+  top: 16rem;
+}
+.houston-25 h1 {
+  top: 7rem;
+  text-align: center;
+  border-bottom: 0.0625rem solid black;
+}
+.houston-25b {
+  position: absolute;
+  right: 5.5rem;
+  top: 9rem;
+}
+.houston-26 {
+  position: absolute;
+  top: 9rem;
+  color: #575757;
+  line-height: 1.7;
+  text-align: left;
+  left: 6rem;
+}
+.houston-27 {
+  position: absolute;
+  left: 0.2rem;
+  top: 25rem;
+}
+.houston-27b {
+  position: absolute;
+  left: 12rem;
+  top: 36.4rem;
+}
+.houston-27b a {
+  color: blue;
+  text-decoration: none;
+}
+.fa-angle-down {
+  color: blue;
+}
+.houston-28 {
+  position: absolute;
+  top: 32rem;
+}
+.houston-28 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 10rem;
+  padding: 1rem 3rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  text-align: center; 
+}
+.houston-28 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-29 {
+  position: relative;
+  top: 20rem;
+  color: #575757;
+  width: 100%;
+  height: 200vh;
+}
+.houston30 {
+  position: absolute;
+  top: 2rem;
+}
+.houston-30 img {
+  padding-left: 6rem;
+}
+.houston-31 {
+  top: 35rem;
+  left: 6rem;
+  position: absolute;
+  width: 85%;
+  border-bottom: 0.0625rem solid #575757;
+}
+.houston-32 {
+  position: absolute;
+  left: 15rem;
+  top: 40rem;
+}
+.houston-33 {
+  position: relative;
+  background-color: #F6F6F6;
+  top: rem;
+  width: 100%;
+  height: 100vh;
+}
+.houston-34 {
+  position: absolute;
+  padding-left: 6rem;
+  top: 3.5rem; 
+}
+.houston-35 {
+  position: absolute;
+  left: 47rem;
+  top: 5rem;
+  font-size: 1.34rem;
+}
+.houston-36 {
+  position: absolute;
+  left: 47rem;
+  top: 15rem;
+}
+.houston-36 h2 {
+  font-size: 1.9rem;
+  color: blue;
+}
+.houston-36 a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 7rem;
+  padding: 1rem 2.3rem;
+  border: 0.125rem solid blue;
+  background-color: rgb(43, 43, 248);
+  color: white;
+  text-align: center;  
+}
+.houston-36 a :hover {
+  background-color: white;
+  color: blue;
+}
+.houston-37 {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  top: 6rem;
+}
+.houston-38 {
+  position: absolute;
+  left: 12rem;
+  text-align: center;
+  display: block;
+}
+.houston-38 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  .houston-38 li {
+    float: left;
+    color: #575757;
+    background-color: white;
+    font-size: 0.75rem;
+    padding-right: 2.1875rem;
+  }
+  .houston-38 li a {
+    color: #575757;
+    background-color: white;
+    text-decoration: none;
+  }
+  .houston-38 li a:hover {
+    font-size: 1.25rem;
+  }
+  .houston-39 {
+    position: absolute;
+    text-align: center;
+    left: 25rem;
+    top: 457rem;
+    line-height: 1.7;
+  }
+  
